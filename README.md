@@ -19,6 +19,7 @@ git clone
 ## Build Package
 
 Navigate to the root directory of the downloaded source code and use Maven to build the package:
+
 cd PhoneBookingSystem
 mvn clean package
 
@@ -27,6 +28,7 @@ This command will compile the source code, run tests, and package the applicatio
 ## Create Docker Image
 
 After successfully building the package, you can create a Docker image:
+
 docker build -t pbs .
 
 This command will create a Docker image named pbs using the Dockerfile provided in the repository.
@@ -34,6 +36,7 @@ This command will create a Docker image named pbs using the Dockerfile provided 
 ## Run in Interactive Mode
 
 Once the Docker image is created, you can run the application in interactive mode:
+
 docker run -i -t pbs
 
 This command will start the application within a Docker container, allowing you to interact with it via the terminal.
