@@ -21,6 +21,7 @@ git clone
 Navigate to the root directory of the downloaded source code and use Maven to build the package:
 
 cd PhoneBookingSystem
+
 mvn clean package
 
 This command will compile the source code, run tests, and package the application into a JAR file.
